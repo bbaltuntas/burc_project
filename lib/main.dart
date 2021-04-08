@@ -1,5 +1,5 @@
 
-import 'package:burc_projesi/mainScreen.dart';
+import 'package:burc_projesi/burcScreen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -10,6 +10,6 @@ void main(){
     title: "Burc Rehberi",
     debugShowCheckedModeBanner: false,
       // routes:{ "/":(context) => MainScreen(),}
-    home: MainScreen(),
+    home: BurcScreen(),
   ));
 }
